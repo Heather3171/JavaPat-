@@ -10,10 +10,10 @@ public class pat1 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
-		String[] arrOfInput = input.split(" ", 2);
-		System.out.println(arrOfInput);
-			
-		
+		String[] arrOfInput = input.split(" ", 4);
+		for(int x = 0; x < arrOfInput.length; x++) {
+			System.out.println(arrOfInput[x]);
+		}
 	}
 	}
 
