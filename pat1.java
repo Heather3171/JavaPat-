@@ -9,13 +9,11 @@ public class pat1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		System.out.print(5^2);
-		while(n>0) {
+		String input = sc.nextString();
+		String[] arrOfInput = input.split(" ", 2);
+		System.out.println(arrOfInput);
 			
-			
-			
-		}
+		
 	}
 	}
 
