@@ -7,15 +7,15 @@ public class pat1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-		String input = sc.nextLine();
-		String[] arrOfInput = input.split(" ", 4);
-		for(int x = 0; x < arrOfInput.length; x++) {
-			System.out.println(arrOfInput[x]);
-		}
-		for(int y = 0; y< 5;y++){
-			System.out.println("hi");
-		}
+		
+		String a = "Aello";
+		String b = "aello";
+		System.out.println(a.compareTo(b));
+		System.out.println(a.compareToIgnoreCase(b));
+		System.out.println(b.compareTo(a));
+		System.out.println(b.compareToIgnoreCase(a));
+		System.out.println("A".codePointAt(0));
+		System.out.println("a".codePointAt(0));
 	}
 	}
 
