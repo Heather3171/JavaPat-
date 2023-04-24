@@ -1,4 +1,3 @@
-package begin;
 import java.util.*;
 public class pat1 {
 
