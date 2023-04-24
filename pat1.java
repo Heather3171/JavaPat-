@@ -13,6 +13,9 @@ public class pat1 {
 		for(int x = 0; x < arrOfInput.length; x++) {
 			System.out.println(arrOfInput[x]);
 		}
+		for(int y = 0; y< 5;y++){
+			System.out.println("hi");
+		}
 	}
 	}
 
