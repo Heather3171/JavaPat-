@@ -8,14 +8,14 @@ public class pat1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String a = "Aello";
-		String b = "aello";
-		System.out.println(a.compareTo(b));
-		System.out.println(a.compareToIgnoreCase(b));
-		System.out.println(b.compareTo(a));
-		System.out.println(b.compareToIgnoreCase(a));
-		System.out.println("A".codePointAt(0));
-		System.out.println("a".codePointAt(0));
+		String a = "world";
+		String b = "howoarldoe";
+		System.out.println(b.contains(a));
+		String c = " ";
+		System.out.println(c.isEmpty());
+		System.out.println(b.subSequence(0,7));
+		
+
 	}
 	}
 
